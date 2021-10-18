@@ -1,0 +1,192 @@
+
+h1{
+    text-align: center;
+    background-color:rgb(105, 153, 155);
+    margin: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: whitesmoke;
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color:whitesmoke;
+}
+h2{
+    text-align: center;
+}
+p{
+    
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+.all{
+    text-align: center;
+}
+
+.Hamid{
+    width: 83%;
+    
+}
+.Mohmmad{
+    width: 83%;
+}
+.Stian{
+    width: 83%;
+}
+.M{
+    width: 83%;
+}
+.details{
+    padding-left: 10px;
+}
+
+.Hamid:hover{
+    transform: scale(1.18);
+    opacity: 50%;
+}
+.Stian:hover{
+    transform: scale(1.15);
+    opacity: 50%;
+}
+.Mohmmad:hover{
+    transform: scale(1.15);
+    opacity: 50%;
+}
+.M:hover{
+    transform: scale(1.17);
+    opacity: 50%;
+}
+
+.Hamid,.Mohmmad, .Stian,.M{
+
+    transition: 0.6s ease-in-out;
+   
+}
+ul #date{
+    list-style-image:url(./icons/date.png);
+}
+ul #person{
+    list-style-image: url(./icons/person.png);
+}
+ul #place{
+    list-style-image: url(./icons/place.png);
+}
+
+
+.bilde1{
+    width: 30%;
+    padding-left: 35%;
+}
+.bilde2{
+    width: 53%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bilde4-6{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lists{
+    padding-left: 35%;
+}
+.head{
+    text-align: center;
+}
+.paragraph1{
+    padding-left: 12%;
+    padding-right: 12%;
+
+}
+.wir1{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.am{
+    text-decoration: none;
+    border: solid 2px #31A6FF;
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+
+.am:hover{
+    background-color: rgb(105, 153, 155);
+    color: #fff;
+    /*color: #f10606;*/
+    transition: 0.5s;
+       
+}
+.wr1{
+    display: inline-block;
+
+    
+}
+.all{
+    text-align: center;
+}
+#wr{
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1050px)
+{
+.details{
+    display: none;
+}
+.container{
+    display: inline-block;
+    padding-left: 10px;
+}
+.Hamid{
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 15px;
+    
+}
+.Mohmmad{
+    width: 600px;
+   padding: 15px;
+}
+.Stian{
+    width: 250px;
+    padding: 15px;
+}
+.M{
+    width: 390px;
+    padding: 10px;
+}
+
+
+.all{
+    text-align: center;
+
+}
+#wr{
+    text-align: center;
+}
+
+}
+#p_mj{
+    margin: 70px;
+}
